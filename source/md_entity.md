@@ -11,7 +11,6 @@ With the goal of making Markdown as HTML-agnostic as possible, all [valid HTML e
 Named entities consist of `&` + any of the valid HTML5 entity names + `;` 
 
 Some examples:
-
 - `&amp;` &amp; 
 - `&copy;` &copy;
 - `&rarr;` &rarr;
