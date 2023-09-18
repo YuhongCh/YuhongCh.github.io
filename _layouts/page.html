@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- page.html -->
+<!-- page.html 
         <div class="post">
 
           <header class="post-header">
@@ -14,10 +14,10 @@ layout: default
           </article>
 
           {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-          <!-- {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %} -->
+          {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
           <h2>References</h2>
           <div class="publications">
-            <!-- {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %} -->
+            {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
           </div>
           {%- endif %}
 
@@ -25,3 +25,4 @@ layout: default
             {% include giscus.html %}
           {%- endif -%}
         </div>
+  -->
